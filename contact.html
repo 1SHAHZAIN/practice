@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body,html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: beige;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+         
+           
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: lightgrey;
+            padding: 100px;
+            border-radius: 10px; /* Optional for rounded corners */
+            
+        }
+        input{
+            font-size: larger;
+            border-radius: 6px;
+            padding: 10px;
+        }
+        label{
+           font-size: 25px;
+           padding: 5px;
+        }
+        button{
+            border-radius: 5px;
+            color: red;
+            padding: 7px;
+            margin-top: 9px;
+            font-size: larger;
+            width: 40%;
+            background-color: antiquewhite;
+          
+
+        }
+        button:hover{
+            background-color: brown;
+            color: antiquewhite;
+           
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+  
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <label>User name </label>
+        <input type="text" placeholder="user">
+        <label>Email</label>
+        <input type="email" placeholder="Mail">
+        <label>Password</label>
+        <input type="password" placeholder="password">
+        <button>submit</button>
+    </div>
+</body>
+
+</html>
